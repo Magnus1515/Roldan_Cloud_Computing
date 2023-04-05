@@ -1,157 +1,125 @@
 body{
-    margin:0;
-    padding: 0;
-    font-family: Inter, sans-serif;
+
+    font-family: 'Nunito', sans-serif;
     background-color: #1a1a1a;
     color:#fff
 }
 
-nav{
-    z-index: 99;
-    position: relative;
+h1{
+    font-size: 48px;
 }
-header h1, h1{
-    font-size: 36px;
-}
-h1,p,a,small{
-    color:#fff;
-
-}
-a{transition: 0.4s;}
-
-a:hover{
-    color: #ccc;
-    text-decoration: none;
-}
-
 p{
-    font-size:0.9em;
-    color: #ccc;
-    line-height:24px;
+    font-size: 20px;
 }
-nav a, footer a{
-    text-decoration: none;
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-nav .conteiner{
-    max-width: 1150px;
-    padding: 1em 2em;
-    margin: 0 auto;
+.fa-brands{
+    font-size: 30px;
 
-}
-nav .conteiner > div{
-    display: grid;
-    grid-template-columns:1fr ;
-    align-items: center;
-}
-nav .menu,
-nav .social-media,
-nav .brand{
-    display: flex;
-    justify-content: space-between ;
-    align-items: center;
-    font-size: 1.3rem;
-}
-nav ul,
-footer ul{
-    list-style-type: none;
-    padding: 0;
-    display: inline-block;
-
-}
-nav ul li,
-footer ul li{
-    display: inline-block;
-    margin: 0 em;
-
-}
-nav ul a,
-footer ul a{
-    font-size:0.8em;
-    text-transform:uppercase;
     
 }
 
-.logo{
-    width: 6em;
-    display: inline-block;
+.navbar a {
+    float: left;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    
 }
-.nav-btn{
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #fff;
-    width: 2.8em;
-    height: 2.8em;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 1em;
+  
+.navbar a:hover {
+    color: gray;
+}
 
+.lista a:hover{
+    color:gray;
+    list-style-type: none;
+    
 }
-.nav-btn:hover{
-    background-color: rgba(255, 255, 255, 0.6);
+.lista{
+    list-style-type: none;
+    margin-right: 3rem;
+}
 
+.lista a{
+    text-decoration: none;
+    color:#eeeeee;
+    font-size: 20px;
+   
 }
-nav .conteiner .menu-btn{
-    display: none;
-
-}
-.social-media a{
-    font-size: 2em;
-    margin: 0.3rem;
-
-}
-header{
-    height: 100vh;
-    /* background:radial-gradient(#333,#1a1a1a); */
-    background-color: black;
-
-}
-header .content,.footer-top{
+.container {
+    padding: 18px;
+    margin-top: 35px;
+    height: 1000px;
+    width: 900px;
+    margin: auto auto auto auto;
+    flex-direction: column;
     display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer {
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-}
-header .content{
-    color: #fff;
-    padding: 0 3em;
-    box-sizing: border-box;
-    height: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-footer{
-    background: #161618;
-}
-.footer-top{
-    padding: 1em  1em;
-}
-.footer-top .logo{
-    width: 6em;
-}
-.vertical-list {
+    height: 180px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+  
+  .footer-top {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 1rem; 
-}
+    align-items: center;
 
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .texto-contenedor{
+    margin-top: 15rem;
+    text-align: center;
+  }
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+  }
+  
+  .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 100%;
+  }
+  
+  .logo {
+    width: 100px; 
+  } */
   
 
-.footer-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3em 2em;
-}
-footer ul li:nth-child(1){
-    margin: left ;
-}
-footer ul li:nth-child(1){
-    margin-right: 0;
-}
+
+/* 
 @media screen and (max-width: 1000px){
     nav .conteiner{
         display: flex;
@@ -216,4 +184,4 @@ footer ul li:nth-child(1){
     header{
         font-size: 14px;
     }
-}
+} */
