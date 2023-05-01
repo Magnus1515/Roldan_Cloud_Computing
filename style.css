@@ -54,10 +54,23 @@ p{
     font-size: 20px;
    
 }
+.porfolio-container{
+    padding: 18px;
+    margin-top: 5px;
+    height: 500px;
+    width: 900px;
+    margin: auto auto auto auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
 .container {
     padding: 18px;
-    margin-top: 35px;
-    height: 1000px;
+    margin-top: 5px;
+    height: 800px;
     width: 900px;
     margin: auto auto auto auto;
     flex-direction: column;
